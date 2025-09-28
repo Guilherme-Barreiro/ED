@@ -1,0 +1,58 @@
+Gestão de Catálogo e Especialidades
+RF-2.1
+Gestão de Especialidades Médicas
+O administrador pode CRUD especialidades médicas disponíveis no sistema.
+5 - Essencial
+Fixo
+Apenas administradores podem gerir especialidades; nomes de especialidades não podem estar duplicados.
+O administrador regista, altera ou remove uma especialidade e o sistema atualiza o catálogo. Se o nome já existir ou os dados forem inválidos, o sistema apresenta uma mensagem de erro.
+
+---
+
+Gestão de Catálogo e Especialidades
+RF-2.2
+Associação de Médico a Especialidade
+O administrador associa cada médico a uma ou mais especialidades médicas disponíveis no catálogo.
+5 - Essencial
+Fixo
+Apenas administradores podem realizar associações; um médico deve estar ligado a pelo menos uma especialidade.
+O administrador associa corretamente um médico a uma especialidade e o sistema regista a associação. Se a especialidade não existir ou os dados forem inválidos, o sistema apresenta uma mensagem de erro.
+
+---
+Gestão de Catálogo e Especialidades
+RF-2.3
+Consulta de Médicos por Especialidade
+O paciente pode consultar os médicos associados a uma especialidade selecionada no catálogo.
+5 - Essencial
+Fixo
+Apenas pacientes autenticados podem consultar; médicos inativos não devem ser exibidos.
+O paciente seleciona uma especialidade e o sistema apresenta a lista de médicos associados. Se não existirem médicos registados para a especialidade, o sistema informa que não há resultados.
+
+---
+
+Gestão de Catálogo e Especialidades
+RF-2.4
+Consulta do Catálogo de Especialidades
+O paciente pode consultar a lista de especialidades médicas disponíveis para escolher médicos e marcar consultas.
+5 - Essencial
+Fixo
+Apenas pacientes autenticados podem consultar; especialidades inativas não devem ser exibidas.
+O paciente acede ao catálogo de especialidades e o sistema apresenta a lista disponível. Se não existirem especialidades registadas, o sistema informa que não há resultados.
+
+---
+
+
+Gestão de Catálogo e Especialidades
+RF-2.5
+Gestão de Clínicas e Salas
+O administrador pode CRUD clínicas e respetivas salas onde se realizam consultas.
+3 - Média
+Fixo
+Apenas administradores podem gerir clínicas e salas; cada sala deve estar associada a uma clínica.
+O administrador regista, altera ou remove clínicas/salas e o sistema atualiza a informação. Se os dados forem inválidos ou incompletos, o sistema apresenta uma mensagem de erro.
+
+
+
+
+
+
