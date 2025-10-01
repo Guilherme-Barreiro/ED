@@ -55,4 +55,71 @@ O administrador regista, altera ou remove clínicas/salas e o sistema atualiza a
 
 
 
+especialidade
+    id INT AUTO_INCREMENT,
+    nome VARCHAR(255),
+    data_criacao DATE,
+    isActive BOOLEAN
+
+trabalhador
+    id id AUTO_INCREMENT,
+    nome_completo VARCHAR(255),
+    username VARCHAR(255),
+    password VARCHAR(255),
+    id_especialidade INT,
+    data_nascimento DATE,
+    data_criacao DATA,
+    isActive BOOLEAN
+
+utilizador
+    id int AUTO_INCREMENT,
+    nome_completo VARCHAR(255),
+    username VARCHAR(255),
+    password VARCHAR(255),
+    data_criacao DATE,
+    isActive BOOLEAN
+
+consultas
+    id
+    data_marcacao
+    id_medico
+    especialidade
+    data_criacao DATE,
+    isActive BOOLEAN
+
+salas
+    id
+    nome
+
+
+notificacoes
+    id
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
